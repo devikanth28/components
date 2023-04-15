@@ -29,7 +29,7 @@ const AccordianPage = () => {
     <React.Fragment>
     <Accordian items={items}/>
     <Link to="/dropDown">open dropDown</Link>
-    <Link to ="/table">Table</Link>
+    <Link to ="/table">Table updated</Link>
     </React.Fragment>
   )
 }

@@ -31,7 +31,7 @@ const Table = ({data, config}) => {
         {renderedRows}
         </tbody>
     </table>
-    <div>Devikanth{data.length}</div>
+    <div>Devikanth table{data.length}</div>
     </React.Fragment>
   )
 }
