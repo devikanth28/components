@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 const DropDown = () => {
     const [isOpen, setIsOpen]=useState(false);
     const [value, setValue] = useState('select....')
-    const [inputValue, setInputValue]=useState();
     const dropDownRef = useRef();
    
     const handleClick = () =>{
